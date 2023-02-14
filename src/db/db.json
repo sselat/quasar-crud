@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Testing Quasar Crud",
+      "author": "Tales",
+      "content": "Este é um artigo sobre Crud no Vue3"
+    },
+    {
+      "id": 3,
+      "title": "Vue3 é muito legal",
+      "author": "Steve Works",
+      "content": "Este é um artigo <b>sobre vue3</b>"
+    },
+    {
+      "id": 4,
+      "title": "Hogwarts Legacy",
+      "author": "J.K. Rowling",
+      "content": "Este é um artigo sobre Crud"
+    },
+    {
+      "title": "Cthulhu",
+      "content": "<b>Ctulhu</b> é um cara bem legal, pena que não pode ver mulher",
+      "author": "H. P. Lovecraft",
+      "id": 6
+    },
+    {
+      "title": "Bananas",
+      "content": "<div>Ba-ba-ba-ba-ba-na-na</div><div>Ba-ba-ba-ba-ba-na-na</div><div>Banana-ah-ah</div><div>Potato-na-ah-ah</div><div>Banana-ah-ah</div><div><br></div><div>Tokari noh potato-li kani malo mani kano</div><div>Chi ka-baba, ba-ba-nana</div><div>Yoh plano boo la planonoh too</div><div>Ma bana-na la-ka moobi talaloo</div><div><br></div><div>Ba-na-na</div><div>Ba-ba</div><div>Po-tae-toh-oh-oh</div><div>Togari noh pocato li kani malo mani kano</div><div>Chi ka-ba-ba, ba-ba-na-na!</div><div><br></div>",
+      "author": "Minion",
+      "id": 7
+    }
+  ]
+}
