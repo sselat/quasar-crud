@@ -8,95 +8,62 @@
 <h4 align="center">Um pequeno projeto utilizando o Axios com Quasar para se comunicar com APIs.</h4>
 
 <p align="center">
-  <a href="#key-features">Características</a> •
-  <a href="#how-to-use">Como usar</a> •
-  <a href="#download">Download</a> •
-  <a href="#license">License</a>
+  <a href="#principais-características">Características</a> •
+  <a href="#como-usar">Como usar</a> •
+  <a href="#créditos">Créditos</a> •
+  <a href="#licença">Licença</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](public/QuasarCrud.gif)
 
-## Key Features
+## Principais Características
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+* CRUD
+  - Create, Read, Update, Delete: são as quatro operações básicas do desenvolvimento de uma aplicação.
+* Axios
+  - Utilizando o Axios, você se comunica de forma rápida e simples com qualquer API, facilitando muito na comunicação entre o cliente e o servidor.
+* Quasar Framework
+  - Uma biblioteca que utiliza o VueJs como base. Facilita muito na criação de aplicações com um design bonito e soluções lógicas simples de serem utilizadas.
+* Json Server
+  - Aplicação que simula uma API para fazermos testes com a interação entre Frontend e Backend.
 
-## How To Use
+## Como usar
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Para clonar essa aplicação, você vai precisar do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/en/download/) (que vem com o [npm](http://npmjs.com)) instalados em seu computador. Em um terminal, siga esses passos:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+# Clone este repositório
+$ git clone https://github.com/sselat/quasar-crud
 
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
+# instale as dependências da aplicação
 $ npm install
 
-# Run the app
-$ npm start
+# acesse a pasta do banco de dados Json
+$ cd src/db/
+
+# pode ser necessário o uso do npx
+$ json-server --watch db.json
+$ npx json-server --watch db.json
+
+# retorne para a pasta principal da aplicação
+cd ../../
+
+# Inicie a aplicação na pasta principal
+$ quasar dev
 ```
 
+## Créditos
 
-## Download
+Aplicações Open Source utilizadas:
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
-
-## Credits
-
-This software uses the following open source packages:
-
-- [Electron](http://electron.atom.io/)
 - [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
+- [Quasar](https://github.com/quasarframework/quasar)
+- [Axios](https://github.com/axios/axios)
+- [Vue](https://github.com/vuejs/vue)
 
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
-
-## Support
-
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<p>Or</p> 
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## You may also like...
-
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
-
-## License
+## Licença
 
 MIT
 
 ---
-
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
 
